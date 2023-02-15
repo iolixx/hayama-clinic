@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/*---共通部分---*/
+body {
+	color:#555;
+	font-size: 14px;
+	line-height: 1;
+	font-family: "メイリオ", Meiryo;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*---wrapper---*/
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*---header---*/
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.header-logo {
+  width: 286px;
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 17px;  
+}
+
+.nav-item {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.nav-item a:hover{
+  color: green;
+}
+
+
+/*---main-img---*/
+.kv {
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+/*---contents---*/
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*---left---*/
+.left {
+  width: 30%;
+  height: auto;
+}
+
+.left-item {
+  width: 100%;
+  height: 48px;
+  background-color: #D9F0D9;
+  border: 1px solid #99CC99;
+  margin-bottom: 10px;
+}
+
+.left-item a {
+  font-size: 16px;
+  line-height: 50px;
+  padding-left: 60px;
+  display: block;
+}
+
+#icon_phone {
+  background-image: url(../images/phone.png);
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+
+#icon_memo {
+  background-image: url(../images/memo.png);
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+
+#icon_comment {
+  background-image: url(../images/comment.png);
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+
+/*---right---*/
+.right {
+  width: 67%;
+  height: auto;
+}
+
+.right-ttl {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.right-news {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-date {
+  font-size: 12px;
+  color: #a8a8a8;
+  width: 15%;
+  line-height: 40px;
+  padding-left: 15px;
+}
+
+.news-item {
+  font-size: 13px;
+  width: 85%;
+  line-height: 40px;
+  padding-left: 15px;
+}
+
+.news-date:nth-of-type(odd),
+.news-item:nth-of-type(odd){
+  background-color: #f5f5f5;
+}
+
+/*---footer---*/
+.footer {
+  width: 100%;
+  height: auto;
+  background-color:#99CC99;
+  margin-top: 50px;
+}
+
+.footer-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pagetop a {
+  width: 78px;
+  height: 20px;
+  color: white;
+  background-color: #99CC99;
+  text-align: center;
+  display: block;
+  line-height: 20px;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.footer-logo {
+  width: 286px;
+}
+
+.footer-list {
+  display: flex;
+  margin-top: 17px;  
+  color: white;
+}
+
+.footer-item {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.footer-item a:hover{
+  color: green;
+}
